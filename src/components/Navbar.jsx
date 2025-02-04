@@ -48,7 +48,11 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+        <input
+          type="text"
+          placeholder="Search"
+          className="input input-bordered w-24 md:w-auto"
+        />
       </div>
     </div>
   );
